@@ -1,0 +1,18 @@
+{
+    "platform": "Linux",
+    "platform_version": "#98~20.04.1-Ubuntu SMP Mon Oct 9 16:43:45 UTC 2023",
+    "architecture": [
+        "64bit",
+        "ELF"
+    ],
+    "cpu": "x86_64",
+    "hostname": "gabriel",
+    "ip_address": "10.25.3.19",
+    "mac_address": "40:80:01:02:04:08",
+    "memory": {
+        "total": 11.67,
+        "available": 7.02,
+        "used": 4.13
+    },
+    "uptime": 89.9
+}
