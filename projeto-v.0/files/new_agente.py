@@ -2,8 +2,8 @@ import platform
 import psutil
 import json
 import socket
-import uuid
 import netifaces
+import getmac
 import time
 
 def get_ip_address():
@@ -28,7 +28,7 @@ def get_system_info():
         'cpu': platform.processor(),
         'hostname': socket.gethostname(),
         'ip_address': get_ip_address(),
-        'mac_address': ':'.join(['{:02x}'.format((uuid.getnode() >> elements) & 0xff) for elements in range(5, -1, -1)]),
+        'mac_address': getmac.get_mac_address(),
         'memory': {
             'total': round(psutil.virtual_memory().total / (1024 ** 3), 2),
             'available': round(psutil.virtual_memory().available / (1024 ** 3), 2),

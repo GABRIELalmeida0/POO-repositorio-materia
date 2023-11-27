@@ -1,0 +1,308 @@
+{
+    "CPU": {
+        "Model": "AMD Phenom(tm) II X4 B97 Processor",
+        "Architecture": "x86_64",
+        "Cores": 4,
+        "Logical Cores": 4,
+        "Frequency": "1825.00 MHz"
+    },
+    "Load Average": {
+        "1 Minute": 1.07,
+        "5 Minutes": 0.75,
+        "15 Minutes": 0.68
+    },
+    "Memory": {
+        "Total": "11.67 GB",
+        "Available": "6.27 GB",
+        "Used": "4.80 GB",
+        "Percent": 46.3
+    },
+    "Disk Usage": {
+        "Total": "455.90 GB",
+        "Free": "356.97 GB",
+        "Used": "75.70 GB",
+        "Percent": 17.5
+    },
+    "Boot Time": "2023-11-16 16:28:34",
+    "Uptime": "99:13:19",
+    "Battery": {
+        "Percent Charge": "N/A",
+        "Power Plugged": "Yes"
+    },
+    "System Info": {
+        "Version": "#98~20.04.1-Ubuntu SMP Mon Oct 9 16:43:45 UTC 2023",
+        "System": "Linux",
+        "Distribution": "ubuntu"
+    },
+    "Network": {
+        "Bytes Received": "3.13 GB",
+        "Bytes Sent": "402.24 MB"
+    },
+    "Network Connections": [
+        {
+            "Local Address": "0.0.0.0:7070",
+            "Remote Address": "N/A:N/A",
+            "Status": "LISTEN"
+        },
+        {
+            "Local Address": ":::35575",
+            "Remote Address": "N/A:N/A",
+            "Status": "LISTEN"
+        },
+        {
+            "Local Address": "10.25.3.19:58708",
+            "Remote Address": "104.192.142.23:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:59382",
+            "Remote Address": "142.250.219.227:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:37644",
+            "Remote Address": "172.67.71.230:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:51686",
+            "Remote Address": "142.250.218.195:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": ":::22",
+            "Remote Address": "N/A:N/A",
+            "Status": "LISTEN"
+        },
+        {
+            "Local Address": "127.0.0.53:53",
+            "Remote Address": "N/A:N/A",
+            "Status": "NONE"
+        },
+        {
+            "Local Address": "127.0.0.1:631",
+            "Remote Address": "N/A:N/A",
+            "Status": "LISTEN"
+        },
+        {
+            "Local Address": "::ffff:10.25.3.19:24801",
+            "Remote Address": "::ffff:10.25.2.109:44108",
+            "Status": "CLOSE_WAIT"
+        },
+        {
+            "Local Address": "::ffff:10.25.3.19:24801",
+            "Remote Address": "::ffff:10.25.2.109:55056",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:47470",
+            "Remote Address": "151.101.1.229:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:33858",
+            "Remote Address": "142.251.132.34:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:56580",
+            "Remote Address": "35.227.252.103:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:37964",
+            "Remote Address": "35.190.80.1:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:68",
+            "Remote Address": "10.25.0.159:67",
+            "Status": "NONE"
+        },
+        {
+            "Local Address": "10.25.3.19:53612",
+            "Remote Address": "142.251.132.46:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "127.0.0.1:36929",
+            "Remote Address": "N/A:N/A",
+            "Status": "LISTEN"
+        },
+        {
+            "Local Address": "10.25.3.19:51228",
+            "Remote Address": "64.233.190.188:5228",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:34974",
+            "Remote Address": "142.251.129.106:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:49028",
+            "Remote Address": "92.38.150.75:6568",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "127.0.0.1:9050",
+            "Remote Address": "N/A:N/A",
+            "Status": "LISTEN"
+        },
+        {
+            "Local Address": "10.25.3.19:48548",
+            "Remote Address": "172.217.173.110:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:37628",
+            "Remote Address": "172.67.71.230:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "224.0.0.251:5353",
+            "Remote Address": "N/A:N/A",
+            "Status": "NONE"
+        },
+        {
+            "Local Address": "10.25.3.19:39094",
+            "Remote Address": "142.251.129.104:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:44530",
+            "Remote Address": "142.251.129.100:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "::1:631",
+            "Remote Address": "N/A:N/A",
+            "Status": "LISTEN"
+        },
+        {
+            "Local Address": "10.25.3.19:50612",
+            "Remote Address": "142.250.218.174:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:50224",
+            "Remote Address": "151.101.1.194:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": ":::5353",
+            "Remote Address": "N/A:N/A",
+            "Status": "NONE"
+        },
+        {
+            "Local Address": "127.0.0.53:53",
+            "Remote Address": "N/A:N/A",
+            "Status": "LISTEN"
+        },
+        {
+            "Local Address": "10.25.3.19:42080",
+            "Remote Address": "40.79.141.152:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:57742",
+            "Remote Address": "34.98.64.218:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:43696",
+            "Remote Address": "151.101.193.229:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "0.0.0.0:631",
+            "Remote Address": "N/A:N/A",
+            "Status": "NONE"
+        },
+        {
+            "Local Address": "0.0.0.0:22",
+            "Remote Address": "N/A:N/A",
+            "Status": "LISTEN"
+        },
+        {
+            "Local Address": "10.25.3.19:52492",
+            "Remote Address": "172.217.29.14:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:44532",
+            "Remote Address": "142.251.129.100:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:48440",
+            "Remote Address": "151.101.0.223:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:58928",
+            "Remote Address": "157.240.226.60:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:50924",
+            "Remote Address": "142.250.219.14:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:54374",
+            "Remote Address": "142.250.218.234:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:52392",
+            "Remote Address": "142.251.129.214:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:50950",
+            "Remote Address": "140.82.114.26:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:33198",
+            "Remote Address": "130.211.23.194:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": ":::37084",
+            "Remote Address": "N/A:N/A",
+            "Status": "NONE"
+        },
+        {
+            "Local Address": ":::24801",
+            "Remote Address": "N/A:N/A",
+            "Status": "LISTEN"
+        },
+        {
+            "Local Address": "10.25.3.19:48176",
+            "Remote Address": "142.251.132.238:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:34984",
+            "Remote Address": "142.251.129.106:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "10.25.3.19:34928",
+            "Remote Address": "142.250.218.195:443",
+            "Status": "ESTABLISHED"
+        },
+        {
+            "Local Address": "0.0.0.0:51411",
+            "Remote Address": "N/A:N/A",
+            "Status": "NONE"
+        },
+        {
+            "Local Address": "0.0.0.0:5353",
+            "Remote Address": "N/A:N/A",
+            "Status": "NONE"
+        }
+    ]
+}

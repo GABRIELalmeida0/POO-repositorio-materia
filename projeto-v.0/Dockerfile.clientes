@@ -1,0 +1,21 @@
+# parent image
+FROM ubuntu:20.04
+
+# install needed packages
+RUN ln -snf /usr/share/zoneinfo/$CONTAINER_TIMEZONE /etc/localtime && echo $CONTAINER_TIMEZONE > /etc/timezone
+RUN apt-get update && apt-get install -y \
+    xterm\
+    openssh-server\
+    python3-pip\
+    net-tools \
+    iputils-ping \
+    iproute2
+
+RUN pip3 install psutil \
+    netifaces\
+    getmac\
+    lib-platform
+
+COPY ./files /agente
+
+CMD ["cat", "/etc/os-release"]
