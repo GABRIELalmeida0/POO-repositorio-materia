@@ -5,9 +5,9 @@ def receber_json():
     servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     porta = 5000
 
-    servidor.bind(('', porta))
+    servidor.bind(('0.0.0.0', porta))
 
-    servidor.listen(20)
+    servidor.listen()
 
     print(f"Servidor ouvindo na porta {porta}...")
 
@@ -20,7 +20,7 @@ def receber_json():
 
             json_data = json.loads(dados)
 
-            with open("dados.json", "w") as arquivo:
+            with open(f"dados-{endereco[0]}.json", "w") as arquivo:
                 json.dump(json_data, arquivo)
 
             print("JSON recebido e armazenado com sucesso!")
@@ -32,4 +32,4 @@ def receber_json():
             conexao.close()
 
 if __name__ == "__main__":
-    receber_json()
+        receber_json()
