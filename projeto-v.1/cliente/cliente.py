@@ -5,7 +5,7 @@ def enviar_json():
     cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     endereco_servidor = ('localhost', 5000)
-
+    
     try:
         cliente.connect(endereco_servidor)
 

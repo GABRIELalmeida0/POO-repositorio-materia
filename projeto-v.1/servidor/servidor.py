@@ -32,4 +32,4 @@ def receber_json():
             conexao.close()
 
 if __name__ == "__main__":
-        receber_json()
+    receber_json()

@@ -4,7 +4,6 @@ from os import listdir
 
 app = Flask(__name__)
 
-
 @app.route('/dados_clientes', methods=['GET'])
 def receive_json():
     files = [file for file in listdir('.') if file.startswith("dados")]
